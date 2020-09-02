@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(206, 205, 205);
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+/* image */
+.logoBox > img{
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+}
+
+/* button */
+.authBox > button {
+    margin: 5px;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained.logInButton.MuiButton-containedPrimary {
+    min-width: 115px;
+}
+
+/* link */
+a {
+    text-decoration: none;
+    color: white
+}
+
+/* success register drawer */
+.success-register-drawer {
+    text-align: center;
+    padding: 20px;
+}

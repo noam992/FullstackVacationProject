@@ -1,0 +1,14 @@
+.layout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.layout > header {
+    grid-column: span 12;
+}
+
+.layout > main {
+    grid-column: span 12;
+}
